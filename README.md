@@ -1,17 +1,15 @@
-# Mayaro
+# R scripts and data for “Reconstructing Mayaro virus circulation in French Guiana shows frequent spillovers”
 
-R scripts and Data for “Reconstructing Mayaro virus circulation in French Guiana shows frequent spillovers”
-
-Data
+## Data
 For reasons related to the anonymity of the survey participants, we could not submit the raw data used in the analysis.
 The following data are available in a format that maintains anonymity of survey participants. 
 For each individual: age group (10-year classes),
 MAYV RFI, CHIKV RFI, region (Maroni, Coast, Interior and High Oyapock), sex, and sampling weight (file: CHIKVMAYV.csv).
 Additionally, the seroneutralization results on 100 individuals are provided (file: SeroNeutralisation.csv).  
 
-Code
-The code was written in R (version 3.3.2) and was tested on a Windows computer.
-It requires the package rstan. To use rstan, Windows users must previously install Rtools. 
+## Code
+The code was written in R (version 3.3.2) and requires the package rstan. 
+The code was tested on a Windows computer with rstan version 2.19.2. To use rstan, Windows users must previously install Rtools. 
 The R scripts allow to load the data, plot the data (figure 1),
 run the MCMC algorithm, and analyse the parameter estimates.
 The data included here are not the ones described in the manuscript and 
